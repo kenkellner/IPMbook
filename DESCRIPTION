@@ -1,16 +1,16 @@
 Package: IPMbook
 Type: Package
 Title: Functions and Data for the Book 'Integrated Population Models'
-Version: 0.1.4
-Date: 2022-11-16
+Version: 0.1.5
+Date: 2023-08-21
 Depends: R (>= 2.10)
 Imports: stats, abind
 Suggests:
 Authors@R: c(
-  person("Andy", "Royle", role="cre", email="aroyle@usgs.gov"),
   person("Michael", "Schaub", role="aut"),
   person("Marc", "Kéry", role="aut"),
   person("Mike", "Meredith", role="aut"),
+  person("Ken", "Kellner", role="cre", email="contact@kenkellner.com"),
   person("Raphaël", "Arlettaz", role="dtc", comment="bats"),
   person("Gabriel", "Banderet", role="dtc", comment="peregrine"),
   person("François", "Biollaz", role="dtc", comment="bats"),
@@ -33,6 +33,7 @@ Authors@R: c(
 Description: Provides functions and data sets to accompany the  book 'Integrated Population Models: Theory and Ecological Applications with R and JAGS' by Michael Schaub and Marc Kéry (ISBN: 9780128205648).
 License: GPL (>=3)
 URL: https://www.vogelwarte.ch/de/projekte/publikationen/ipm/
+BugReports: https://github.com/kenkellner/IPMbook/issues
 NeedsCompilation: no
 Encoding: UTF-8
 Language: en-US
